@@ -7,7 +7,18 @@
 3. go to "add configuration" in the top right
 4. select liferay server and point it at `build/dist/tomcat` server
 5. run server and fill in config page
-6. in a terminal, navigate to storefront directory `cd Storefront-Folder-Location/build/dist/osgi/modules`
-7. in the same terminal, write `cp activation-key-dxpunlimitedenterprisewide-7.2-associatedwholesalegrocersenterpriseticket.xml ~/liferay-workspace/build/dist/deploy`
  
 
+# Building Modules 
+For the inital module, we used the command `blade create -t mvc-portlet -p  com.liferay.training.portlet.diff -c TrainingMVCPortlet training-portlet-diff`
+
+1. Run above command with this format: `blade create -t {templateName} -p {packageName} -c {className}`
+    If succesfull, it should show up in your project explorer.
+2. Go to the right of the screen and click on `gradle` and click the refresh button.
+    Your module should now show up under `modules`
+3. click `build` and then `deploy`
+4. You should now be able to go to your localhost and add the portlet.
+
+# If you have issues
+1. Verify that your ide is using the correct jdk by going to 
+    `File > Project Structure > Java 1.8`
