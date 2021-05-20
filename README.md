@@ -2,8 +2,7 @@
 ### A barebones liferay project to get you started with creating modules in liferay.
 
 # Getting Started
-1. clone this repo with `git clone https://github.com/pedersendane/barebones-liferay-project.git` or open a new project from source control.
-2. run `./gradlew clean distBundle`
+1. clone this repo with `git clone https://github.com/danepedersenAWG/barebones-liferay-v2.git`
 3. go to "add configuration" in the top right
 4. select liferay server and point it at `build/dist/tomcat` server
 5. run server and fill in config page
