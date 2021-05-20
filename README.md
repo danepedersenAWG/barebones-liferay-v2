@@ -21,3 +21,4 @@ For the inital module, we used the command `blade create -t mvc-portlet -p  com.
 # If you have issues
 1. Verify that your ide is using the correct jdk by going to 
     `File > Project Structure > Java 1.8`
+2. Verify that your Liferay server iss not defaulting to `Default`. Make sure it is pointed at `Java 1.8`.
